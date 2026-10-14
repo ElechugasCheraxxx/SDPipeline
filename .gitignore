@@ -1,0 +1,43 @@
+# Xcode / build
+build/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+*.xcscmblueprint
+*.xccheckout
+*.moved-aside
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# macOS
+.DS_Store
+.AppleDouble
+._*
+.Spotlight-V100
+.Trashes
+
+# Config local
+*.xcconfig.local
+Secrets.plist
+
+# Python / backend (NO versionar entornos)
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+requirements*.txt.lock
+
+# Entornos de Stable Diffusion completos
+webui/
+stable-diffusion-webui/
+models/
+embeddings/
+outputs/
+text2img-images/
+
+# Datos / PII
+*.sqlite3-shm
+*.sqlite3-wal
+.DS_Store
